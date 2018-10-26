@@ -1,0 +1,156 @@
+body {
+    overflow-x: hidden;
+    padding-top: 70px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 10%;
+    padding: 10%;
+    box-sizing: border-box;
+    opacity: 0.9;
+    background: red;
+    position: relative;
+    left: 50%;
+    margin-left: -5%;
+    transition: all 1s;
+}
+
+.circle-exp {
+    border-radius: 50%;
+    width: 30%;
+    padding: 30%;
+    box-sizing: border-box;
+    opacity: 0.6;
+    background: red;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-left: 80%;
+    margin-top: -40%;
+    transition: all 1s;
+}
+
+
+#header.shrunk {
+    opacgty: 0;
+    height: 0px;
+    transition: all 1s;
+}
+
+#header {
+    opacity: 1;
+    height: 500px;
+    transition: all 1s;
+}
+
+#selfie {
+    width:100%;
+    max-width: 90%;
+    border-radius: 20%;
+    /*margin: 50px;*/
+    margin-right: 10px;
+    margin-bottom: 270x;
+    margin-top: 40px;
+    float: top;
+}
+
+.project-category h2 {
+    align: right;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.carousel-holder {
+    width: 350px;
+    float: left;
+    border-radius: 5px;
+    padding: 4px;
+    border: thin solid #DDDDDD;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.project p {
+    font-size: 12pt;
+}
+
+.links {
+    font-size: large;
+    padding-bottom: 0.3em;
+    margin-left: 0.5em;
+    vertical-align: middle;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+li{
+    margin: 0px 0;
+}
+
+imageTitle {
+    background-color: red;
+    opacity: 0.5;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+div.ex1 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+div.ex2 {
+    max-width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+
+/*for responsive table*/
+    /* 
+    Generic Styling, for Desktops/Laptops 
+    */
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    /* Zebra striping */
+    tr:nth-of-type(odd) { 
+        background: #eee; 
+    }
+    th { 
+        background: #333; 
+        color: white; 
+        font-weight: bold; 
+    }
+    td, th { 
+        padding: 6px; 
+        border: 1px solid #ccc; 
+        text-align: left; 
+    }
+
