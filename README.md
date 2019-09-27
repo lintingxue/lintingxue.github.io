@@ -1,2 +1,3 @@
 # lintingxue.github.io
-Welcome to my personal page.
+
+I am currently looking for a full-time position in applied machine learning.
